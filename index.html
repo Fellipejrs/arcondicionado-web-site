@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArclimateBR - Especialistas em Ar Condicionado</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="scr"></script>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-snowflake"></i>ArclimateBR
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Clima Perfeito Todo Ano</h1>
+                    <p>Especialistas em instalação, manutenção e reparo de ar condicionado. Conforto térmico garantido
+                        para sua casa ou empresa.</p>
+                </div>
+
+                <div class="box-btn-icon">
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-calculator"></i> Solicitar Orçamento
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                    <div class="hero-visual">
+                        <i class="fas fa-snowflake ac-icon"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções completas em climatização com qualidade e garantia</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Instalação</h3>
+                    <p>Instalação profissional de ar condicionado residencial e comercial com garantia de qualidade e
+                        eficiência energética.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Manutenção</h3>
+                    <p>Manutenção preventiva e corretiva para garantir o funcionamento perfeito do seu equipamento por
+                        mais tempo.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Reparo</h3>
+                    <p>Conserto rápido e eficiente com diagnóstico preciso e peças originais. Atendimento de emergência
+                        disponível.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Limpeza</h3>
+                    <p>Limpeza profunda e higienização completa do sistema, garantindo ar puro e livre de bactérias.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Consultoria</h3>
+                    <p>Consultoria especializada para escolha do equipamento ideal para seu ambiente e necessidades
+                        específicas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Emergência 24h</h3>
+                    <p>Atendimento de emergência 24 horas para reparos urgentes. Sua comodidade é nossa prioridade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Entre em Contato</h3>
+                    <div class="contact-methods">
+                        <a href="#" class="contact-method whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p>(11) 99999-9999</p>
+                            </div>
+                        </a>
+                        <a href="#"
+                            class="contact-method instagram">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <strong>Instagram</strong>
+                                <p>@Artec</p>
+                            </div>
+                        </a>
+                        <a href="#" class="contact-method email">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>E-mail</strong>
+                                <p>email@gmail.com</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="quote-form">
+                    <h3>Solicite seu Orçamento</h3>
+                    <form id="quoteForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone/WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Tipo de Serviço</label>
+                            <select id="service" name="service" required>
+                                <option value="">Selecione o serviço</option>
+                                <option value="instalacao">Instalação</option>
+                                <option value="manutencao">Manutenção</option>
+                                <option value="reparo">Reparo</option>
+                                <option value="limpeza">Limpeza</option>
+                                <option value="consultoria">Consultoria</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Descrição do Projeto</label>
+                            <textarea id="message" name="message"
+                                placeholder="Descreva suas necessidades..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Solicitar Orçamento
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ArclimateBR. Todos os direitos reservados. | Especialistas em Climatização</p>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contacts">
+        <a href="#" class="floating-btn floating-whatsapp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="#"
+            class="floating-btn floating-instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</body>
+
+</html>
